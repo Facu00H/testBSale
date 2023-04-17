@@ -1,0 +1,41 @@
+{
+  "name": "bsale-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./build/server.js",
+    "dev": "ts-node-dev src/server.ts",
+    "lint": "eslint --fix --ext .js,.jsx .",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@types/mysql": "^2.15.21",
+    "config": "^3.3.8",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "dotenv": "^16.0.3",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "ts-standard": "^12.0.2"
+  },
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/cookie-parser": "^1.4.3",
+    "@types/cors": "^2.8.13",
+    "@types/ejs": "^3.1.2",
+    "@types/express": "^4.17.17",
+    "@types/http-errors": "^2.0.1",
+    "@types/morgan": "^1.9.4",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.5"
+  }
+}
